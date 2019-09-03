@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="-8 -8 56 57" width="56pt" height="57pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.3 
+    <dc:date>2019-07-30 23:04:59 +0000</dc:date>
+  </metadata>
+  <defs/>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g>
+      <title>Layer 1</title>
+      <path d="M 12 8 L 12 8.75 L 12 32.75 L 12 33.5 L 12.615385 33.5 L 17.538462 33.5 L 18.153846 33.5 L 18.153846 32.75 L 18.153846 8.75 L 18.153846 8 L 17.538462 8 L 12.615385 8 Z M 21.846154 8 L 21.846154 8.75 L 21.846154 32.75 L 21.846154 33.5 L 22.461538 33.5 L 27.384615 33.5 L 28 33.5 L 28 32.75 L 28 8.75 L 28 8 L 27.384615 8 L 22.461538 8 Z M 13.23077 9.5 L 16.923077 9.5 L 16.923077 32 L 13.23077 32 Z M 23.076923 9.5 L 26.76923 9.5 L 26.76923 32 L 23.076923 32 Z" fill="#a5a5a5"/>
+      <circle cx="20" cy="20.75" r="27.000043" stroke="#a5a5a5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

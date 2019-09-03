@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/libs.css">
+    <link type="text/css" rel="stylesheet" href="css/app.css">
+    <link type="text/css" rel="stylesheet" href="css/action.css">
+    <title></title>
+</head>
+<body class="home blog">
+<header>
+    <div class="logo-wrapper">
+        <a href="/">
+            <img src="images/logo.png" style="padding-left:10px; max-height: 50px" alt="logo"/>
+        </a>
+    </div>
+    <div class="menu-wrapper">
+        <ul>
+            <li><a href="#action"  data-smooth-scroll>Demo</a></li>
+            <li><a href="" >Download Paper</a></li>
+            <li><a href="" >Supplementary Material</a></li>
+        </ul>
+    </div>
+    <div class="logo-wrapper-resp">
+        <a href="/">
+            <img src="images/logo.png" style="padding-left:10px; max-height: 50px" alt="logo"/>
+        </a>
+    </div>
+    <div id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="mobile-nav">
+        <ul class="mobile-nav">
+            <li><a href="#action"  data-smooth-scroll>Demo</a></li>
+            <li><a href="" >Download Paper</a></li>
+            <li><a href="" >Supplementary Material</a></li>
+        </ul>
+    </div>
+
+</header>
+<div class="row expanded" id="action">
+    <div class="row">
+        <h2 class="text-center wow fadeInDown" data-wow-delay="0.6s">
+            See CochleaNet in Action
+        </h2>
+        <div id="environment-container" class="environment-container environment-street">
+            <div class="video_wrapper">
+                <div id="environment-image" class="environment-image wow fadeInUp" data-wow-delay="0.6s"><img
+                        src="images/environments/bg-street.jpg" class="opaque"><img
+                        src="images/environments/bg-child.jpg"><img src="images/environments/bg-airport.jpg"><img
+                        src="images/environments/bg-coffeeshop.jpg"><img src="images/environments/bg-scrum.jpg"><img
+                        src="images/environments/bg-pizza.jpg"></div>
+                <div class="environment-image-overlay"></div>
+            </div>
+        </div>
+        <div class="sounds wow fadeInRight">
+            <ul id="select-sound"></ul>
+        </div>
+        <div class="settings  wow fadeInLeft">
+            <div class="action_flex">
+                <div class="play-button" id="play-button">
+                    <span id="play-state" class="play-state"></span>
+                    <span id="pause-state" class="pause-state hidden"></span>
+                </div>
+                <div class="noise-cancel-container">
+                    <a id="noise-cancellation-switch" href="#" class="switch off">
+                        <span><em></em></span>
+                    </a>
+                </div>
+            </div>
+            <div class="play-visual-container">
+                <div class="amplitudes-container">
+                    <div id="playing-progress" class="playing-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row expanded" id="action_app">
+    <div class="row">
+        <h2 class="text-center wow fadeInDown" data-wow-delay="0.6s">
+            CochleaNet Applications
+        </h2>
+        <div id="app-environment-container" class="environment-container environment-street">
+            <div class="video_wrapper">
+                <div id="app-environment-image" class="environment-image wow fadeInUp" data-wow-delay="0.6s"><img
+                        src="images/environments/bg-street.jpg" class="opaque"><img
+                        src="images/environments/bg-child.jpg"><img src="images/environments/bg-airport.jpg"><img
+                        src="images/environments/bg-coffeeshop.jpg"><img src="images/environments/bg-scrum.jpg"><img
+                        src="images/environments/bg-pizza.jpg"></div>
+                <div class="environment-image-overlay"></div>
+            </div>
+        </div>
+        <div class="sounds wow fadeInRight" data-wow-delay="0.7s">
+            <ul id="app-select-sound"></ul>
+        </div>
+        <div class="settings  wow fadeInLeft" data-wow-delay="0.7s">
+            <div class="action_flex">
+                <div class="play-button" id="app-play-button">
+                    <span id="app-play-state" class="play-state"></span>
+                    <span id="app-pause-state" class="pause-state hidden"></span>
+                </div>
+                <div class="noise-cancel-container">
+                    <a id="app-noise-cancellation-switch" href="#" class="switch off">
+                        <span><em></em></span>
+                    </a>
+                </div>
+            </div>
+            <div class="play-visual-container">
+                <div class="amplitudes-container">
+                    <div id="app-playing-progress" class="playing-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"
+        integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/main_scripts.js" defer></script>
+<script type="text/javascript" src="js/action.js" defer></script>
+<!--<script type="text/javascript" src="js/wow.min.js"></script>-->
+<!--<script type="text/javascript" src="js/index.js" defer></script>-->
+</body>
+</html>
