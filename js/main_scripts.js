@@ -285,7 +285,7 @@
         return ee.isWindow(e) ? e : 9 === e.nodeType && (e.defaultView || e.parentWindow)
     }
 
-    var R, O, B = e.document, z = e.location, I = e.jQuery, W = e.$, $ = {}, X = [], V = "1.9.0", U = X.concat,
+    var R, O, B = e.document, z = e.location, I = e.jQuery, W = e.$, $ = {}, X = [], V = "3.4.1", U = X.concat,
         Y = X.push, Q = X.slice, G = X.indexOf, J = $.toString, Z = $.hasOwnProperty, K = V.trim, ee = function (e, t) {
             return new ee.fn.init(e, t, R)
         }, te = /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source, ne = /\S+/g, re = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,
